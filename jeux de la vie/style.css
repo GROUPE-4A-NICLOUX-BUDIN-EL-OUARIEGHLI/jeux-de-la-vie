@@ -1,0 +1,24 @@
+.app {
+  display: grid;
+  grid-gap: 0.25em;
+  /*grid-template-columns: repeat(auto-fit, minmax(5em,1fr));*/
+   /* margin-top: 50vh;  poussé de la moitié de hauteur de viewport */
+  /*transform: translateY(-50%); tiré de la moitié de sa propre hauteur */
+}
+
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+.bg {
+  /* The image used */
+  background-image: url("cell.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
